@@ -1,74 +1,67 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">NVDA,SPY,QQQ,EEM and IYR quotes by TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
   {
+  "lineWidth": 2,
+  "lineType": 0,
+  "chartType": "line",
+  "fontColor": "rgba(255, 35, 1, 1)",
+  "gridLineColor": "rgba(0, 0, 0, 0.06)",
+  "volumeUpColor": "rgba(34, 171, 148, 0.5)",
+  "volumeDownColor": "rgba(247, 82, 95, 0.5)",
+  "backgroundColor": "rgba(0, 0, 0, 1)",
+  "widgetFontColor": "rgba(255, 35, 1, 1)",
+  "upColor": "#22ab94",
+  "downColor": "#f7525f",
+  "borderUpColor": "#22ab94",
+  "borderDownColor": "#f7525f",
+  "wickUpColor": "#22ab94",
+  "wickDownColor": "#f7525f",
   "colorTheme": "dark",
-  "dateRange": "1M",
-  "locale": "fr",
-  "largeChartUrl": "",
   "isTransparent": true,
-  "showFloatingTooltip": false,
-  "plotLineColorGrowing": "rgba(76, 175, 80, 1)",
-  "plotLineColorFalling": "rgba(242, 54, 69, 1)",
-  "gridLineColor": "rgba(240, 243, 250, 0)",
-  "scaleFontColor": "#DBDBDB",
-  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
-  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
-  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
-  "tabs": [
-    {
-      "title": "Indices",
-      "symbols": [
-        {
-          "s": "FOREXCOM:SPXUSD",
-          "d": "S&P 500 Index"
-        },
-        {
-          "s": "FOREXCOM:NSXUSD",
-          "d": "US 100 Cash CFD"
-        },
-        {
-          "s": "FOREXCOM:DJI",
-          "d": "Dow Jones Industrial Average Index"
-        }
-      ],
-      "originalTitle": "Indices"
-    },
-    {
-      "title": "STOCK",
-      "symbols": [
-        {
-          "s": "NASDAQ:NVDA",
-          "d": "",
-          "logoid": "nvidia",
-          "currency-logoid": "country/US"
-        },        
-        {
-          "s": "BITSTAMP:BTCUSD",
-          "d": "",
-          "base-currency-logoid": "crypto/XTVCBTC",
-          "currency-logoid": "country/US"
-        },
-        {
-          "s": "FOREXCOM:XAUUSD",
-          "d": "",
-          "logoid": "metal/gold",
-          "currency-logoid": "country/US"
-        }
-      ]
-    }
+  "locale": "en",
+  "chartOnly": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "Andale Mono, monospace",
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "symbols": [
+    [
+      "NASDAQ:NVDA|1D"
+    ],
+    [
+      "AMEX:SPY|1D"
+    ],
+    [
+      "NASDAQ:QQQ|1D"
+    ],
+    [
+      "AMEX:EEM|1D"
+    ],
+    [
+      "AMEX:IYR|1D"
+    ]
   ],
-  "support_host": "https://www.tradingview.com",
-  "backgroundColor": "#0f0f0f",
-  "width": 230,
-  "height": 460,
-  "showSymbolLogo": false,
-  "showChart": true
+  "dateRanges": [
+    "1d|5",
+    "5d|5",
+    "1m|30",
+    "12m|1D",
+    "60m|1W"
+  ],
+  "fontSize": "10",
+  "headerFontSize": "medium",
+  "autosize": true,
+  "width": "100%",
+  "height": "100%",
+  "noTimeScale": true,
+  "hideDateRanges": false,
+  "hideMarketStatus": true,
+  "hideSymbolLogo": true
 }
   </script>
 </div>
-
-
+<!-- TradingView Widget END -->
